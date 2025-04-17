@@ -5,5 +5,7 @@ const notaQuartoBi = parseInt('7');
 
 
 const total = notaPrimeiroBi + noraSegundoBi + notaTerceiroBi + notaQuartoBi; 
+const media = total / 4;
 
-console.log(total);
+console.log("Soma das notas: " + total);
+console.log("Média das notas: " + media.toFixed(2))
