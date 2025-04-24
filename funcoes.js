@@ -1,8 +1,9 @@
 // parâmetros/argumentos
 // retorno
 
-function exibeNomeEstudante(nome) {
-    console.log(nome);
-}
-
-exibeNomeEstudante('Caroline');
+function exibeInfosEstudante(nome, nota) {
+    return `o nome é ${nome} e a nota é ${nota}`;
+  }
+  
+  console.log(exibeInfosEstudante('Caroline', 10));
+  console.log(exibeInfosEstudante('Ana', 7));
